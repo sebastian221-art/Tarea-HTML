@@ -1,0 +1,109 @@
+body{
+    background-color: white;
+    
+}
+header{
+    
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: relative;
+}
+.first-info{
+    background-color:white;
+    text-align: center;
+
+}
+.info-play{
+    background-color:white;
+    text-align: center;
+}
+.info-us{
+    background-color:white;
+    text-align: center;
+}
+.aquan{
+    padding: 2px;
+    width: fit-content;
+    background-color: white;
+    border-radius: 2px;
+    font-family: "gidole",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.titulo{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: 500px;
+}
+.botones_inicio a {
+    margin-left: 10%;
+    margin-right: 5%;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #007bff; 
+    margin-right: 20px; 
+    transition: color 0.3s; 
+}
+.botones_inicio a:hover {
+    color: #181c20;
+}
+.botones_inicio a:last-child {
+    margin-right: 0;
+}
+.sol {
+    float: right;
+    margin-left: 20px; 
+}
+.perro{
+    float: right;
+    margin-left: 20px; 
+    flex: 1;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: 400px;
+    height: 380px;
+}
+.iconos{
+    float: right;
+    margin-left: 2px; 
+    flex: 1;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box; 
+    width: 40px;
+}
+.comprar{
+    float: right;
+    margin-left: 2px; 
+    flex: 1;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: 150px; 
+     
+}
+.pc{
+    float: right;
+    margin-left: 2px; 
+    flex: 1;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: 200px;
+}
+.aporte{
+    float: right;
+    margin-left: 2px; 
+    flex: 1;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: 150px; 
+}
