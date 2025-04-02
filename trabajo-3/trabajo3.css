@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+
+.text-content {
+    margin-bottom: 40px;
+    transform: translateX(-20%) translateY(10%);
+    align-items: center;
+}
+
+.text-content h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.text-content a.buton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.text-content a.buton:hover {
+    background-color: #0056b3;
+}
+
+.img1{
+    height: 400px;
+}
+.img2{
+    height: 400px;
+}
+.img3{
+    height: 400px;
+}
+
+.derecha {
+    top: 0;
+    right: 0;
+    transform: translateX(160%) translateY(-65%);
+}
+
+.medio {
+    top: 50%;
+    left: 50%;
+    transform: translateX(54%) translateY(-115%);
+}
+
+.izquierda {
+    bottom: 0;
+    left: 0;
+    transform: translateX(-53%) translateY(-166%);
+}
+
+/* Decoraciones (si las tienes) */
+.decorations {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Asegura que las decoraciones estén en segundo plano */
+}
+
+.wave, .spiral, .starburst {
+    /* Asegúrate de tener estilos específicos para tus decoraciones */
+    background: #f0f0f0;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.2;
+}
